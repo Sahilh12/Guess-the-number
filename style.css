@@ -47,6 +47,7 @@ input {
   width: 200px;
   font-size: 15px;
   border-radius: 5px;
+  padding: 10px;
   border: 1px solid gray;
 }
 .btn {
@@ -80,6 +81,9 @@ input {
 @media (max-width: 560px) {
   .enter {
     font-size: 22px;
+  }
+  input {
+    padding: 10px;
   }
   h1 {
     font-size: 22px;
